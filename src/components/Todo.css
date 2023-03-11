@@ -1,0 +1,47 @@
+.main-div{
+    margin-top: 4rem;
+}
+
+.child-div{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.addItems{
+    position: relative;
+}
+
+.addItems input{
+    width: 15%;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.addItems .add-btn{
+    position: absolute;
+    top: 30%;
+    right: 42%;
+    color: red;
+}
+
+.eachItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 315px;
+    margin: auto;
+    background-color: burlywood;
+    padding: 0 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.eachItem h3{
+    color: #fff;
+}
+
+.add-btnn{
+    color: red;
+}
