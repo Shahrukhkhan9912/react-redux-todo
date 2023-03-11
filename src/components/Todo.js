@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './Todo.css';
-import {addTodo, removeTodo} from '../actions/index';
+import {addTodo, removeTodo, removeAllTodo} from '../actions/index';
 import { useDispatch, useSelector } from 'react-redux'; 
 
 const Todo = () => {
@@ -39,6 +39,9 @@ const Todo = () => {
                             )
                         })
                     }
+                </div>
+                <div className="showItems">
+                   <button className='remove-btn' onClick={() => dispatch(removeAllTodo())}>Remove List</button>
                 </div>
             </div>
             </div> 

@@ -45,3 +45,16 @@
 .add-btnn{
     color: red;
 }
+
+.remove-btn{
+    margin-top: 10px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: burlywood;
+    color: #fff;
+    border: none;
+}
+
+.remove-btn:hover{
+    background-color: darkgoldenrod;
+}
